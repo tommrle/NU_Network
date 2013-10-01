@@ -4,14 +4,15 @@
 
 .right {
 	float: right;
-	width: 100px;
+	width: 25%;
 }
 
 .left {
 	float: left;
-	width: 100px;
+	width: 25%;
 }
 .middle {
 	margin: 0 100px;
+	width: 50%;
 }
 
