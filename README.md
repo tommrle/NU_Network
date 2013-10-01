@@ -1,6 +1,6 @@
 NU_Network
 ==========
 
-EECS 394 Project
-crap
+EECS 394 Project/n
+
 Hello Here
