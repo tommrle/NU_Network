@@ -4,18 +4,21 @@ body
 	overflow: hidden;
 }
 
+.left {
+	float: right;
+	width: 25%;
+}
+
+.middle {
+	float: left;
+	width: 50%;
+	background-color:#660066;
+}
+
 .right {
 	float: left;
 	width: 25%;
 }
 
-.middle {
-	width: 50%;
-	background-color:#660066;
-}
 
-.left {
-	float: left;
-	width: 25%;
-}
 
