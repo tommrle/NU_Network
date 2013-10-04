@@ -1,5 +1,6 @@
 body
 .container {
+	background-color:#FFFFFF;
 	overflow: hidden;
 }
 
@@ -9,7 +10,6 @@ body
 }
 
 .middle {
-	.margin: 0 100px;
 	width: 50%;
 	background-color:#660066;
 }
