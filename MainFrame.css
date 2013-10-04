@@ -1,17 +1,17 @@
-container {
+.container {
 	overflow: hidden;
 }
 
-right {
+.right {
 	float: right;
 	width: 25%;
 }
 
-left {
+.left {
 	float: left;
 	width: 25%;
 }
-middle {
+.middle {
 	margin: 0 100px;
 	width: 50%;
 }
