@@ -2,6 +2,7 @@ body
 .container {
 	background-color:#FFFFFF;
 	overflow: hidden;
+	height: 100% position:relative;
 }
 
 .left {
