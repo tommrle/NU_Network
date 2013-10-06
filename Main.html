@@ -15,7 +15,11 @@
 		left side
 	</div>
 	<div class='middle'>
-		Main Column
+		Main Column<br>
+		
+		<?php
+			echo Hello World;
+		?>
 		
 		<?php
 			$file_handle = fopen("events.txt","r");
@@ -23,8 +27,8 @@
    				$line = fgets($file_handle);
    				echo $line;
 			}
-		fclose($file_handle);
-		?>;
+			fclose($file_handle);
+		?>
 		
 	</div>
 
