@@ -16,6 +16,16 @@
 	</div>
 	<div class='middle'>
 		Main Column
+		
+		<?php
+			$file_handle = fopen("events.txt","r");
+			while (!feof($file_handle)) {
+   				$line = fgets($file_handle);
+   				echo $line;
+			}
+		fclose($file_handle);
+		?>;
+		
 	</div>
 
 
