@@ -1,6 +1,13 @@
-h1 {
-  background-color: ##A0A0A0;
-}
 body {
+  font-family:"verdana";
+  background-color: #FFFFFF;
+}
+h1 {
+  color: #FFFFFF;
+  font-family:"courier", "sans-serif";
   background-color: #330033;
 }
+input[type=submit] {
+	width:200px;
+}
+
