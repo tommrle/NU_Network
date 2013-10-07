@@ -15,22 +15,28 @@
 		
 	</div>
 	<div class='middle'>
-		Welcome to <b>NU Networks</b>
-	<div class='box'>
-	<?php 
-	
-	$lines = file("welcome.txt", FILE_IGNORE_NEW_LINES);
-	while ($lines)
-	{
-	echo "Hello <br>"
-	}
-	?>	
-	</div>
-	<div class='box'>
-	This is just another box <br> <br> <br> ok?
-	</div>
+	<a href="create_event.html">ADD YOUR EVENT</a>	
 
-	</div>
+		<?php 
+$file = fopen("welcome.txt","r") or exit("Unable to open file!");
+
+
+	$lines = file("welcome.txt", FILE_IGNORE_NEW_LINES);
+	$size = sizeof($lines);	
+	
+	$x =0;
+	while ($size > $x)
+{
+	
+	echo "<div class='box'>";
+	//echo "HELLO";
+	echo "<b>Activity:</b> " . $lines[$x] . "<br><br><b>When:</b> " . $lines[($x+1)] . "<br><br><b>Contact Number:</b> " . $lines[($x+2)]; 
+	echo "</div>";
+	$x+=3;
+}
+
+	?>	
+		</div>
 
 
 
