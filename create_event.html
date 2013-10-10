@@ -1,29 +1,30 @@
 <head>
-  <title>Event Creation Page</title>
+  <title>Sell Books</title>
   <link rel="stylesheet" style="text/css" href="create_event.css">
 </head>
 
 <body>
     <h1 align="center">
-      Create an Event
+      Sell Books
     </h1>
-    	<table align="center">
-		<tr>
-			<td> Event Name </td>
-			<td> <textarea rows="1" cols="50"></textarea> </td>
-		</tr>
-		
-		<tr>
-			<td> Event Description </td>
-			<td> <textarea rows="4" cols="50"></textarea> </td>
-		</tr>
-		<tr>
-			<td> Contact Number (optional) </td>
-			<td> <textarea rows="1" cols="50"></textarea> </td>
-		</tr>
-
-     </table>
-	<form align="center">
-		<input type="submit" value="Submit" align="center">
-	</form>
+    	<form id="input_data" action = "welcome.php" method = "post">
+	<table align="center">
+	<tr>
+		<td>	Book Title </td>
+		<td width="60%"><input type="text" name = "event_name"/> </td>
+	</tr>
+	<tr>	
+		<td> Price and Condition </td>
+		<td width="60%"> <textarea form="input_data" rows="5"name = "event_description" /></textarea></td>
+	</tr>
+	<tr>	
+		<td> Contact Email </td>
+		<td width="60%"> <input type="text" name = "contact_number" /></td>
+	</tr>	
+	<tr>
+		<td align="center" colspan="2"><input type="submit" value="Submit" /></td>
+ 	</tr>
+</table>
+     	</form>
+	
 </body>
