@@ -7,12 +7,29 @@
 </head>
 
 <body>
-<div data-role="page" id="homepage">
+<!-- Start of first page: #one -->
+<div data-role="page" id="frontpage">
+
+	<div data-role="header">
+		<h1>McCormick Marketplace</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" >	
+		
+		<p><a href="#searchpage" data-role="button">Buy Textbook</a></p>	
+		<p><a href="#" data-role="button">Sell Textbook</a></p>
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-theme="d">
+		<h4> &copy Red Team 2013 </h4>
+	</div><!-- /footer -->
+</div><!-- /page one -->
+<div data-role="page" id="searchpage">
 	<div data-role="header">
 	<h1>McCormick Market</h1>
 	  <div data-role="navbar">
 		<ul>
-		<li><a href="#" data-icon="home">Home</a></li>
+		<li><a href="#frontpage" data-icon="home">Home</a></li>
 		<li><a href="#classlist" data-icon="search">Search for Books</a></li>
 		<li><a href="#" data-icon="arror-r">Sell Book</a></li>
 	  	</ul>
@@ -37,7 +54,7 @@
 	<div data-role="footer">
 	  <div data-role="navbar">
 		<ul>
-		<li><a href="#homepage" data-icon="home">Home</a></li>
+		<li><a href="#searchpage" data-icon="home">Home</a></li>
 		<li><a href="#classlist" data-icon="search">Search for Books</a></li>
 		<li><a href="#" data-icon="arror-r">Sell Book</a></li>
 	  	</ul>
