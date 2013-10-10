@@ -1,0 +1,61 @@
+<!--
+<!doctype html>
+<html>
+<head>
+    <title>My Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+ 
+        <div data-role="header">
+            <h1>My Title</h1>
+        </div>
+ 
+        <div data-role="content">
+            <p>Hello world</p>
+        </div>
+ 
+        <div data-role="footer">
+            <h4>My Footer</h4>
+        </div>
+ 
+    </div><!-- /page -->
+
+<!DOCTYPE html>	
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("div1").load("welcome.txt");
+		});
+	});
+	</script>
+</head>
+<body>
+	<div data-role="page">
+		<div data-role="header">
+	<h1 style="margin-bottom:0;text-align:center;">McCormick Marketplace</h1></div>
+<div data-role="content">
+<a href="create_event.html">Sell My Books</a>	
+	
+	<div id="div1"><h2> List of Books: </h2></div>
+	<button> Hope this works! </button>
+	</div>
+	
+	<div data-role="footer">
+		<h4> (c) Red Team 2013 </h4>
+	</div>
+</div>
+
+</body>
+</html>
