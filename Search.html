@@ -11,33 +11,35 @@
 <div data-role="page" id="frontpage">
 
 	<div data-role="header">
-		<h1>McCormick Marketplace</h1>
+		<h1 align="center">McCormick Marketplace</h1>
 	</div><!-- /header -->
 
-	<div data-role="content" >	
-		
-		<p><a href="#searchpage" data-role="button">Buy Textbook</a></p>	
-		<p><a href="#" data-role="button">Sell Textbook</a></p>
+	<div data-role="content" align="center">	
+		<h1> Welcome to McCormick Marketplace!</h1>
+		<p> Buy and sell textbooks directly with other students for Northwestern freshman engineering classes! Click on the navigation bar below to get started. </p>
+		<img src="http://www.danlockton.co.uk/research/images/textbook.jpg" align="center">
 	</div><!-- /content -->
 	
-	<div data-role="footer" data-theme="d">
-		<h4> &copy Red Team 2013 </h4>
-	</div><!-- /footer -->
-</div><!-- /page one -->
-<div data-role="page" id="searchpage">
-	<div data-role="header">
-	<h1>McCormick Market</h1>
-	  <div data-role="navbar">
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
 		<ul>
 		<li><a href="#frontpage" data-icon="home">Home</a></li>
-		<li><a href="#classlist" data-icon="search">Search for Books</a></li>
+		<li><a href="#searchpage" data-icon="search">Search for Books</a></li>
 		<li><a href="#" data-icon="arror-r">Sell Book</a></li>
 	  	</ul>
-	  </div>
+		</div>
 	</div>
+</div><!-- /page one -->
+
+<div data-role="page" id="sellpage">
+	
+	<div data-role="header">
+		<h1>McCormick Market</h1>
+	</div>
+	
 </div>
 
-<div data-role="page" id="classlist">
+<div data-role="page" id="searchpage">
 
 	<div data-role="header">
 	  <h1>McCormick Market</h1>
@@ -51,11 +53,11 @@
 
 	</div>
 
-	<div data-role="footer">
+	<div data-role="footer" data-position="fixed">
 	  <div data-role="navbar">
 		<ul>
-		<li><a href="#searchpage" data-icon="home">Home</a></li>
-		<li><a href="#classlist" data-icon="search">Search for Books</a></li>
+		<li><a href="#frontpage" data-icon="home">Home</a></li>
+		<li><a href="#searchpage" data-icon="search">Search for Books</a></li>
 		<li><a href="#" data-icon="arror-r">Sell Book</a></li>
 	  	</ul>
 	  </div>
@@ -67,6 +69,15 @@
 <div data-role="page" id="Chem101">
 	<div data-role="content">
 	  <a href="#classlist">Go To Page One</a>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+		<ul>
+		<li><a href="#frontpage" data-icon="home">Home</a></li>
+		<li><a href="#searchpage" data-icon="search">Search for Books</a></li>
+		<li><a href="#" data-icon="arror-r">Sell Book</a></li>
+	  	</ul>
+	  </div>
 	</div>
 
 </body>
