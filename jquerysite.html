@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 <head>
 <meta name="viewport" content="width=device-width, content="initial-scale=1">
@@ -33,6 +34,25 @@ xmlhttp.onreadystatechange=function()
 xmlhttp.open("GET","getuser.php?q="+str,true);
 xmlhttp.send();
 }
+
+$('sellpage').submit(function() {saveBids();});
+
+function saveBids()
+{
+	$.ajax({
+	url: "saveBid.php",
+	type: "POST",
+	data: {
+		fullname: $("fullname").val(),
+		bid: $("bid").val()
+	},
+	success: function(response)
+	{
+		if(response == 'true')
+		{ window.location.replace("#frontpage"); }
+	});	
+}
+
 </script>
 
 </head>
@@ -75,8 +95,8 @@ xmlhttp.send();
 			<input type="text" name="fullname" id="fullname"><br>
 			<label for="class">Class:</label>
 			<input type="text" name="class" id="class"><br>
-			<label for="price">Asking Price:</label>
-			<input type="text" name="price" id="price"><br>
+			<label for="bid">Asking Price:</label>
+			<input type="text" name="bid" id="bid"><br>
 			<input type="submit" value = "Submit">
 		</div>
 		</form>
