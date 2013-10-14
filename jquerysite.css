@@ -1,0 +1,8 @@
+.ui-title {
+    margin: 0.6em 10% 0.8em !important;
+}
+
+.ui-field-contain{
+    border-bottom-width:1px;
+    padding-bottom:1.5em;
+}
