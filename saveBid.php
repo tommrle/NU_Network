@@ -15,7 +15,7 @@ if(!empty($fullname) && !empty($bid))
 	$MYSQL_server_password = "0077049";
 	$DB_name = "zhaliu0_market";
 
-	$server + @mysql_connect($$MYSQL_server_name, $MYSQL_server_username, $MYSQL_server_password);
+	$server = @mysql_connect($MYSQL_server_name, $MYSQL_server_username, $MYSQL_server_password);
 
 	if (!$server) {
 	echo "Could not get server";
