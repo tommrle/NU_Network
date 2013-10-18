@@ -44,12 +44,11 @@ alert("We are storing your bid");
 $.ajax({
 	url: "saveBid.php",
 	success: function(data) {
-		window.location.reload()
+		alert("Hello!");	
 		}
 	});
 });
 
-alert("Post Store Point");
 /*
 
 	$.ajax({
