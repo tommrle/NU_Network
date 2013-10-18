@@ -9,6 +9,7 @@
 <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
 
 <script>
+/*
 function showBids(cls)
 {
 if(cls=="")
@@ -35,7 +36,7 @@ xmlhttp.open("GET","getuser.php?q="+str,true);
 xmlhttp.send();
 }
 
-$('sellpage').submit(function() {saveBids();});
+*/
 
 function saveBids()
 {
