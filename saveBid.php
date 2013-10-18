@@ -1,19 +1,14 @@
 <?php
-
+/*
 $fullname = $_POST['fullname'];
 $bid = $_POST['bid'];
 $classname = $_POST['classname'];
-
-/*
-echo "<script language='javascript'>";
-echo "alert('message successfully sent')";
-echo "</script>";
 */
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 64d0626a2441ff066d0f889968999d968300f351
+//echo "<script language='javascript'>";
+echo "alert('message successfully sent')";
+//echo "</script>";
+/*
 if(!empty($fullname) && !empty($bid))
 {
 	$MYSQL_server_name = "mysql121.freehostia.com:3306";
@@ -37,6 +32,6 @@ if(!empty($fullname) && !empty($bid))
 	if(!@mysql_query($query))
 	{ echo "<script type='text/javascript/>alert('Unsuccessfully entered')</script>"; }
 }
-
+*/
 
 ?>
