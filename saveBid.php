@@ -5,9 +5,9 @@ $bid = $_POST['bid'];
 $classname = $_POST['classname'];
 */
 
-//echo "<script language='javascript'>";
-echo "alert('message successfully sent')";
-//echo "</script>";
+echo '<script language="javascript">';
+echo 'alert("message successfully sent")';
+echo '</script>';
 /*
 if(!empty($fullname) && !empty($bid))
 {
