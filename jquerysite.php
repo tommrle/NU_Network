@@ -45,6 +45,7 @@ alert("We are storing your bid");
 $.ajax({
 	url: "saveBid.php",
 	success: function(data) {
+		
 		alert("Hello!");	
 		}
 	});
