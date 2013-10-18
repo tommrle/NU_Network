@@ -6,6 +6,8 @@ $classname = $_POST['classname'];
 echo "<script language='javascript'>";
 echo "alert('message successfully sent')";
 echo "</script>";
+
+/*
 if(!empty($fullname) && !empty($bid))
 {
 	$MYSQL_server_name = "mysql121.freehostia.com:3306";
@@ -29,4 +31,6 @@ if(!empty($fullname) && !empty($bid))
 	if(!@mysql_query($query))
 	{ echo "<script type='text/javascript/>alert('Unsuccessfully entered')</script>"; }
 }
+*/
+
 ?>
