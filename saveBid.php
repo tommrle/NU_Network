@@ -1,8 +1,11 @@
 <?php
 
-$fullname = mysql_real_escape_string($_POST['fullname']);
+$fullname = $_POST['fullname'];
 $bid = $_POST['bid'];
-$classname = "Chem101"
+$classname = $_POST['classname'];
+echo "<script language='javascript'>";
+echo "alert('message successfully sent')";
+echo "</script>";
 if(!empty($fullname) && !empty($bid))
 {
 	$MYSQL_server_name = "mysql121.freehostia.com:3306";
