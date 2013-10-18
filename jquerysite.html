@@ -39,6 +39,16 @@ $('sellpage').submit(function() {saveBids();});
 
 function saveBids()
 {
+alert("We are storing your bid");
+
+$.ajax({ url: 'saveBid.php',
+		success: function(data) {
+				window.location.reload()
+				}
+	});
+
+/*
+
 	$.ajax({
 	url: "saveBid.php",
 	type: "POST",
@@ -51,6 +61,8 @@ function saveBids()
 		if(response == 'true')
 		{ window.location.replace("#frontpage"); }
 	});	
+
+*/
 }
 
 </script>
