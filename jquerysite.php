@@ -49,7 +49,9 @@ $.ajax({
 	});
 });
 
+alert("Post Store Point");
 /*
+
 	$.ajax({
 	url: "saveBid.php",
 	type: "POST",
