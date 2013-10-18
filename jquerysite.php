@@ -67,7 +67,7 @@ $.ajax({
 		{ window.location.replace("#frontpage"); }
 	});
 */	
-}
+
 
 </script>
 
