@@ -5,6 +5,7 @@
 <meta name="viewport" content="" width=device-width, content="initial-scale=1">
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
 <link rel="stylesheet" style="text/css" href="jquerysite.css">
+<link rel="stylesheet" href="/Styles/mobile.css" media="screen and (max-width:480px)" />
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
 
